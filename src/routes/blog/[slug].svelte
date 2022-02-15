@@ -36,6 +36,8 @@
 </svelte:head>
 
 <h1>{post.title}</h1>
+
+<!--
 <p>
   Published {new Date(post.publishedAt).toLocaleDateString('en', {
     month: 'long',
@@ -43,7 +45,7 @@
     year: 'numeric'
   })}
 </p>
-
+-->
 {#each post.authors || [] as author}
   <AuthorCard {author} />
 {/each}
