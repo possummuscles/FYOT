@@ -10,15 +10,25 @@
 </script>
 
 <header>
-  <span>{blogTitle}</span>
+  <img src="/FYOT_Logo.png" alt="FYTO Logo">
+  <span class="title"   >{blogTitle}</span>
+  
   <nav>
     <ul>
-      <li><a data-selected={path === '/'} href="/">home</a></li>
+      <li><a data-selected={path === '/'} href="/">Home</a></li>
     </ul>
   </nav>
 </header>
 
 <style>
+
+.title {
+  font-size: 3rem;
+  color: #4B6E30;
+  font-weight: 800;
+  padding-top: 2rem;
+  
+}
   ul {
     list-style: none;
     margin: 0;
@@ -26,23 +36,36 @@
   }
   a[data-selected='true'] {
     font-weight: 600;
-    color: #555;
+    color: #638D24;
   }
   a {
     text-decoration: none;
     display: block;
+    padding-top: 3rem;
+    font-size: 1rem;
   }
 
   header {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: flex-start;
     padding: 1em;
   }
+
+  img {
+    margin: 0;
+    
+    max-width: 30%;
+    height: auto;
+  }
+
+  .title {
+    
+  }
   @media screen and (min-width: 400px) {
     header {
-      flex-direction: row-reverse;
+    
       align-items: center;
     }
   }

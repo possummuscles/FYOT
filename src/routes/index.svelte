@@ -13,23 +13,23 @@
 </script>
 
 <script>
-  import AuthorCard from '$lib/AuthorCard.svelte'
+  //import AuthorCard from '$lib/AuthorCard.svelte'
   import PostsGrid from '$lib/PostsGrid.svelte'
 
   export let posts
-  export let authors
+  //export let authors
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>FYOT Blog - Posts</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Posts</h1>
 
 <PostsGrid {posts} />
 
-<h2 style="margin-top: 4rem">Author{authors.length > 1 ? 's' : ''}</h2>
+<!--<h2 style="margin-top: 4rem">Author{authors.length > 1 ? 's' : ''}</h2>
 
 {#each authors as author}
   <AuthorCard {author} />
-{/each}
+{/each} -->

@@ -3,7 +3,7 @@
   import Footer from '$lib/Footer.svelte'
 </script>
 
-<Header blogTitle={'SvelteKit x Sanity Blog'} />
+<Header blogTitle={'F.Y.O.T.'} />
 
 <main style="padding: 1em">
   <slot />
@@ -13,10 +13,11 @@
 
 <style>
   :global(a) {
-    color: #1a4d9e;
+  color: #4B6E30
+    
   }
   :global(a:hover) {
-    color: #1e61cd;
+    color: #638D24;
     border-bottom: none;
   }
 </style>
