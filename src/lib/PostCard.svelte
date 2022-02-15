@@ -43,4 +43,13 @@
     object-fit: cover;
     margin: 0;
   }
+
+  a {
+  color: #4B6E30
+    
+  }
+  a:hover {
+    color: #638D24;
+    border-bottom: none;
+  }
 </style>

@@ -17,4 +17,13 @@
     gap: 3rem 2rem;
     margin-top: 3rem;
   }
+
+  a {
+  color: #4B6E30
+    
+  }
+  a:hover {
+    color: #638D24;
+    border-bottom: none;
+  }
 </style>
