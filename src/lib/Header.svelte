@@ -60,9 +60,7 @@
     height: auto;
   }
 
-  .title {
-    
-  }
+  
   @media screen and (min-width: 400px) {
     header {
     
