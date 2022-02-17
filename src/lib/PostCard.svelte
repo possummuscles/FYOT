@@ -8,6 +8,9 @@
   <h2>
     <a rel="prefetch" href="/blog/{post.slug.current}">{post.title}</a>
   </h2>
+
+  <img src="/Tree1.png" alt="Tree One">
+
   {#if post.image}
     <div class="image">
       <SanityImage image={post.image} maxWidth={300} />
@@ -19,7 +22,9 @@
   article {
     display: flex;
     /* Show images first */
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 3px solid whitesmoke;
   border-radius: 10px;
   }

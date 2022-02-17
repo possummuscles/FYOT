@@ -24,7 +24,7 @@
   <title>FYOT Blog - Posts</title>
 </svelte:head>
 
-<h1>Posts</h1>
+<h1 class="title"> Blog Posts</h1>
 
 <PostsGrid {posts} />
 
@@ -33,3 +33,9 @@
 {#each authors as author}
   <AuthorCard {author} />
 {/each} -->
+
+<style>
+  .title{
+    text-align: center;
+  }
+</style>

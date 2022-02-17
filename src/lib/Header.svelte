@@ -34,7 +34,7 @@ header {
     padding: 1em;
 }
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #4B6E30;
   font-weight: 800;
   padding-top: 0.1rem;

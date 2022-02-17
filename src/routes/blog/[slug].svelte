@@ -35,7 +35,7 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1 class="title">{post.title}</h1>
 
 <!--
 <p>
@@ -69,3 +69,5 @@
     }
   }}
 />
+
+
