@@ -1,5 +1,8 @@
 <footer>
-  The footer goes here!!
+  “All I need is a sheet of paper
+and something to write with, and then
+I can turn the world upside down.”
+― Friedrich Nietzsche
   
 </footer>
 
@@ -12,6 +15,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+    font-size: smaller;
   }
 
  
