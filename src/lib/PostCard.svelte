@@ -20,6 +20,8 @@
     display: flex;
     /* Show images first */
     flex-direction: column-reverse;
+    border: 3px solid whitesmoke;
+  border-radius: 10px;
   }
 
   h2 {
@@ -27,7 +29,7 @@
   }
 
   h2 a {
-    text-decoration: none;
+    text-decoration-line: underline;
   }
 
   .image {

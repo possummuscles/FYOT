@@ -15,18 +15,29 @@
   
   <nav>
     <ul>
-      <li><a data-selected={path === '/'} href="/">Home</a></li>
+      
+      <li><a class="button" data-selected={path === '/'} href="/">Home</a></li>
     </ul>
   </nav>
 </header>
 
 <style>
 
+  
+header {
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+   
+    place-content: centre;
+    padding: 1em;
+}
 .title {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #4B6E30;
   font-weight: 800;
-  padding-top: 2rem;
+  padding-top: 0.1rem;
   
 }
   ul {
@@ -36,28 +47,45 @@
   }
   a[data-selected='true'] {
     font-weight: 600;
-    color: #638D24;
+    color: gray;
   }
   a {
     text-decoration: none;
     display: block;
     padding-top: 3rem;
-    font-size: 1rem;
+    font-size: 2rem;
+    
   }
 
-  header {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 1em;
+  a:hover {
+    color: #638D24
   }
+ 
+    
+  
+.button {
+        background-color: whitesmoke;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: #4B6E30;
+        padding: .25rem 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 3px 3px #888888;
+}
+      
+  
 
   img {
     margin: 0;
     
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
+    
   }
 
   
