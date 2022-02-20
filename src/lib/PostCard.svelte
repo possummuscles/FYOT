@@ -9,8 +9,7 @@
     <a rel="prefetch" href="/blog/{post.slug.current}">{post.title}</a>
   </h2>
 
-  <img src="/Tree1.png" alt="Tree One">
-
+  
   {#if post.image}
     <div class="image">
       <SanityImage image={post.image} maxWidth={300} />

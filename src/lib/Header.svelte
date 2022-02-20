@@ -17,6 +17,7 @@
     <ul>
       
       <li><a class="button" data-selected={path === '/'} href="/">Home</a></li>
+      <li><a class="button" data-selected={path === '/tree'} href="/tree">Tree</a></li>
     </ul>
   </nav>
 </header>
@@ -31,7 +32,7 @@ header {
   grid-template-columns: 1fr 3fr 1fr;
    
     place-content: centre;
-    padding: 1em;
+    padding: 1rem;
 }
 .title {
   font-size: 2rem;
@@ -60,7 +61,6 @@ header {
   a:hover {
     color: #638D24
   }
- 
     
   
 .button {
